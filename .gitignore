@@ -1,0 +1,17 @@
+# Package manager
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+node_modules
+
+# Misc
+.DS_Store
+
+# IDE
+.vscode
+
+# Environment
+.env.*

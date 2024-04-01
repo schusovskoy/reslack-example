@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "exactOptionalPropertyTypes": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "slack-thunder",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitReturns": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUnusedParameters": false,
+    "resolveJsonModule": true,
+    "target": "esnext",
+    "verbatimModuleSyntax": true
+  },
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "include": ["src/**/*"]
+}
